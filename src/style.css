@@ -1,0 +1,44 @@
+body{
+    background-color: #b9c2ba;
+}
+.d-flex input{
+    margin: .9em 0em;
+}
+.d-flex button{
+    margin: 1.5em .6em;
+    padding: .3em 2.4em;
+}
+.container table{
+    margin: 1em 10em;
+}
+table .btnEdit{
+    color: rgb(18, 190, 18);
+    cursor:pointer ;
+}
+table .btnDelete{
+    color: rgb(231, 36, 1);
+    cursor: pointer;
+}
+
+
+/* message */
+.insertmsg,
+.updatemsg,
+.deletemsg{
+position: absolute;
+top: -40px;
+
+}
+
+.moveDown{
+    animation: slideUp 3.5s ease;
+}
+
+@keyframes slideUp {
+    50%{
+        top: 0;
+    }
+    100%{
+        top: -40px;
+    }
+}
